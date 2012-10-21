@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MvcContrib.NHamlViewEngine</name>
+    </assembly>
+    <members>
+        <member name="T:MvcContrib.NHamlViewEngine.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.CompilationError">
+            <summary>
+              Looks up a localized string similar to An error occurred when compiling the file: {0}.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.ErrorParsingTag">
+            <summary>
+              Looks up a localized string similar to Error parsing tag.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.IllegalIndentation">
+            <summary>
+              Looks up a localized string similar to Illegal Indentation: Only two space characters are allowed as tabulation.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.InvariantFail">
+            <summary>
+              Looks up a localized string similar to Invariant Failure.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.ObjectNull">
+            <summary>
+              Looks up a localized string similar to Expected non-null object.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.StringCannotBeEmpty">
+            <summary>
+              Looks up a localized string similar to The provided string argument &quot;{0}&quot; cannot be empty.
+            </summary>
+        </member>
+        <member name="P:MvcContrib.NHamlViewEngine.Properties.Resources.SyntaxError">
+            <summary>
+              Looks up a localized string similar to Syntax error on line {0}: {1}: &quot;{2}&quot;.
+            </summary>
+        </member>
+    </members>
+</doc>

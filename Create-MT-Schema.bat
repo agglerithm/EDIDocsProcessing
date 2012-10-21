@@ -1,0 +1,1 @@
+sqlcmd -i RuntimeServicesDDL.sql -S localhost -d MassTransit

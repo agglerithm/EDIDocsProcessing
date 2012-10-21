@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AFPSTDomainCore</name>
+    </assembly>
+    <members>
+        <member name="T:AFPSTDomainCore.IDOWebService.IDOWebService">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.GetConfigurationNames">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.GetConfigurationNamesAsync">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.GetConfigurationNamesAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CreateSessionToken(System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CreateSessionTokenAsync(System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CreateSessionTokenAsync(System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.LoadDataSet(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.LoadDataSetAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.LoadDataSetAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.SaveDataSet(System.String,System.Data.DataSet,System.Boolean,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.SaveDataSetAsync(System.String,System.Data.DataSet,System.Boolean,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.SaveDataSetAsync(System.String,System.Data.DataSet,System.Boolean,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CallMethod(System.String,System.String,System.String,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CallMethodAsync(System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CallMethodAsync(System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:AFPSTDomainCore.IDOWebService.IDOWebService.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="E:AFPSTDomainCore.IDOWebService.IDOWebService.GetConfigurationNamesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AFPSTDomainCore.IDOWebService.IDOWebService.CreateSessionTokenCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AFPSTDomainCore.IDOWebService.IDOWebService.LoadDataSetCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AFPSTDomainCore.IDOWebService.IDOWebService.SaveDataSetCompleted">
+            <remarks/>
+        </member>
+        <member name="E:AFPSTDomainCore.IDOWebService.IDOWebService.CallMethodCompleted">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.GetConfigurationNamesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.GetConfigurationNamesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.GetConfigurationNamesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.CreateSessionTokenCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.CreateSessionTokenCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.CreateSessionTokenCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.LoadDataSetCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.LoadDataSetCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.LoadDataSetCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.SaveDataSetCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.SaveDataSetCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.SaveDataSetCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.CallMethodCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:AFPSTDomainCore.IDOWebService.CallMethodCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.CallMethodCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:AFPSTDomainCore.IDOWebService.CallMethodCompletedEventArgs.strMethodParameters">
+            <remarks/>
+        </member>
+    </members>
+</doc>

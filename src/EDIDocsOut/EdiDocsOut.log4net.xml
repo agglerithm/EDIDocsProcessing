@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="AppFileAppender" type="log4net.Appender.RollingFileAppender">
+    <file value="Logs\app.log" />
+    <appendToFile value="true"/>
+    <rollingStyle value="Size"/>
+    <maxSizeRollBackups value="5"/>
+    <maximumFileSize value="5000KB"/>
+    <staticLogFileName value="true"/>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%property{log4net:HostName}] [%a] [%thread] [%identity] %-5level: %message%newline%exception"/>
+    </layout>
+  </appender>
+
+
+  <appender name="ColoredConsoleAppender"
+			  type="log4net.Appender.ColoredConsoleAppender">
+    <mapping>
+      <level value="ERROR" />
+      <foreColor value="Red, HighIntensity" />
+    </mapping>
+    <mapping>
+      <level value="WARN" />
+      <foreColor value="Yellow, HighIntensity" />
+    </mapping>
+    <mapping>
+      <level value="INFO" />
+      <foreColor value="White" />
+    </mapping>
+    <mapping>
+      <level value="DEBUG" />
+      <foreColor value="Cyan" />
+    </mapping>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%message%newline" />
+    </layout>
+  </appender>
+
+  <appender name="MassTransitMessagesAppender" type="log4net.Appender.RollingFileAppender">
+    <file value="Logs\masstransit.messages.log" />
+    <appendToFile value="true"/>
+    <rollingStyle value="Size"/>
+    <maxSizeRollBackups value="5"/>
+    <maximumFileSize value="5000KB"/>
+    <staticLogFileName value="true"/>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%property{log4net:HostName}] [%a] [%thread] [%identity] %-5level: %message%newline%exception"/>
+    </layout>
+  </appender>
+
+  <appender name="NHibernateAppender" type="log4net.Appender.RollingFileAppender">
+    <file value="Logs\nhibernate.log" />
+    <appendToFile value="true"/>
+    <rollingStyle value="Size"/>
+    <maxSizeRollBackups value="5"/>
+    <maximumFileSize value="5000KB"/>
+    <staticLogFileName value="true"/>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%property{log4net:HostName}] [%a] [%thread] [%identity] %-5level: %message%newline%exception"/>
+    </layout>
+  </appender>
+  <appender name="EventLogAppender" type="log4net.Appender.EventLogAppender">
+    <threshold value="WARN"/>
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%a] [%a] [%thread] %-5level %logger [%property{NDC}] - %message%newline" />
+    </layout>
+  </appender>
+
+
+
+  <!-- Set root logger level to DEBUG and its only appender to Console -->
+  <root>
+    <level value="INFO" />
+    <appender-ref ref="ColoredConsoleAppender" />
+    <appender-ref ref="AppFileAppender" />
+    <appender-ref ref="EventLogAppender" />
+  </root>
+
+  <!-- Standard NHibernate Logging Settings -->
+  <logger name="NHibernate">
+    <level value="OFF" />
+  </logger>
+
+  <logger name="NHibernate" additivity="false">
+    <level value="WARN" />
+    <appender-ref ref="NHibernateAppender" />
+  </logger>
+
+  <logger name="MassTransit.Messages" additivity="false">
+    <level value="WARN" />
+    <appender-ref ref="MassTransitMessagesAppender" />
+  </logger>
+
+</log4net>

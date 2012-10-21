@@ -1,0 +1,193 @@
+INFO  10:58:07 Loading MassTransit.RuntimeServices Services...
+INFO  10:58:08 Using Configuration File: C:\Projects\edidocsprocessing\dist\MassTransit\net-4.0\RuntimeServices\MassTransit.RuntimeServices.exe.config
+INFO  10:58:13 MassTransit v2.0.0.0, .NET Framework v2.0.50727.5448
+INFO  10:58:13 MassTransit v2.0.0.0, .NET Framework v2.0.50727.5448
+INFO  10:58:13 MassTransit v2.0.0.0, .NET Framework v2.0.50727.5448
+INFO  10:58:16 Starting SubscriptionClient on msmq://jreeselaptop2/mt_health?tx=false
+INFO  10:58:16 Starting SubscriptionClient on msmq://jreeselaptop2/mt_timeout?tx=false
+INFO  10:58:18 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderHasBeenShippedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.InvoicedOrderMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'EdiMessages.OrderIsBackorderedMessage, EdiMessages', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:19 Unknown message type 'MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit', unable to add subscription
+INFO  10:58:21 Subscription Service Starting: msmq://jreeselaptop2/mt_subscriptions?tx=false
+INFO  10:58:22 Subscription Service Started
+INFO  10:58:26 Subscription Client Added: msmq://jreeselaptop2/mt_edi_docs_out_control?tx=false [f7b381b8-ab0b-4c11-9048-a02400b4c6d6]
+INFO  10:58:26 Subscription Client Added: msmq://jreeselaptop2/mt_health_control?tx=false [f4a19e4f-c807-4bdb-a768-a02400b4cd87]
+INFO  10:58:26 Subscription Client Added: msmq://jreeselaptop2/mt_timeout_control?tx=false [44379d78-3d36-4500-9e40-a02400b4cd86]
+INFO  10:58:26 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.WwtMrnRecievedMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EdiMessages.OrderRequestReceivedMessage, EdiMessages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.MrnAssignedToLocationMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'WWT.Messages.MrnMatchedToOrderMessage, WWT.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'EmailService.Messages.SendNotificationMessage, EmailService.Messages', unable to add subscription
+INFO  10:58:26 Unknown message type 'MassTransit.Fault`1[[EmailService.Messages.SendNotificationMessage, EmailService.Messages]], MassTransit', unable to add subscription
+INFO  10:58:26 Health Service Starting
+INFO  10:58:27 Timeout Service Starting
+INFO  10:58:27 Subscription Removed: EdiMessages.OrderRequestReceivedMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [59012841-3e33-4831-a481-a01c00e6e2a1] []
+INFO  10:58:27 Subscription Removed: EdiMessages.OrderHasBeenShippedMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [8f536c1f-7858-415b-be51-a01c00e6e2ac] []
+INFO  10:58:27 Subscription Removed: EdiMessages.InvoicedOrderMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [3a99c25c-aeab-49d9-82d3-a01c00e6e2b3] []
+INFO  10:58:27 Subscription Removed: EdiMessages.OrderRequestReceivedMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [57d5a447-f514-43de-9127-a01c00e6e2b9] []
+INFO  10:58:27 Subscription Removed: EdiMessages.OrderHasBeenShippedMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [d98c483a-2fc2-41bf-9ca5-a01c00e6e2ba] []
+INFO  10:58:27 Subscription Removed: EdiMessages.InvoicedOrderMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [6664da29-a504-4a45-bda5-a01c00e6e2bc] []
+INFO  10:58:27 Subscription Removed: EdiMessages.OrderIsBackorderedMessage, EdiMessages  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [53ae4a70-6ded-4edf-8c26-a01c00e6e2be] []
+INFO  10:58:27 Subscription Removed: MassTransit.Fault`1[[EdiMessages.InvoicedOrderMessage, EdiMessages]], MassTransit  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [2ca5e710-7284-4407-a3f7-a01c00e6e2c9] []
+INFO  10:58:27 Subscription Removed: MassTransit.Fault`1[[EdiMessages.OrderHasBeenShippedMessage, EdiMessages]], MassTransit  msmq://jreeselaptop2/mt_edi_docs_out?tx=false [36cfdf22-55b3-4e7b-9304-a01c00e6e2d4] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [3db77d12-7a6b-4589-895c-9f6d00f156dc] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [43a5c567-d4a4-4114-8630-9f6d00f1570c] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [e96a8b71-acd2-4c50-b146-9f6d00f15721] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [fb4d3de0-b77f-497a-9dda-9f6d00f15726] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [21186cc8-6d70-4095-847d-9f6d00f1572d] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [d0acd590-f128-4f7b-a9e6-9f6d00f15735] []
+INFO  10:58:27 Timeout Service Started
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [d6769cbe-996b-45cb-ba35-9f6d00f156c0] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [1c4556b4-4fa2-49e5-be2c-9f6d00f156c4] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [742401b9-d067-494d-9a09-9f6d00f156df] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [a5789597-a8b4-4a52-9302-9f6d00f156e6] []
+INFO  10:58:27 Subscription Removed: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [56084b7b-e08e-4298-b3b2-9f6d00f156ea] []
+INFO  10:58:27 Health Service Started
+INFO  10:58:27 Subscription Removed: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [e238b3ee-296a-4018-919c-9f6d00f15679] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpoint, MassTransit  msmq://jreeselaptop2/mt_timeout_control?tx=false [9e55e304-3819-4cf9-91b1-a02400b4d909] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.HealthUpdateRequest, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [62ad7f61-da9f-42ac-8c54-a02400b4d946] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutScheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [28d2e0eb-6d4a-4254-8aa8-a02400b4d94d] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutRescheduled, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [525b3a47-d56a-4070-8df0-a02400b4d950] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [20caf8d1-2929-42df-b37d-a02400b4d979] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.CancelTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [fd7ceda8-d6ed-41eb-9d1e-a02400b4d983] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.ScheduleTimeout, MassTransit  msmq://jreeselaptop2/mt_timeout?tx=false [b2658114-65da-4091-8f9c-a02400b4d993] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointWentOffline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [eedcf178-8a84-47eb-bc24-a02400b4d997] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.Timeout.Messages.TimeoutExpired, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [cf0a4e20-7918-4d95-97b0-a02400b4d9ac] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.Heartbeat, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [0606b297-1fc9-473f-8c78-a02400b4d9bf] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.EndpointCameOnline, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [d1dcd586-8753-4e4b-9f5a-a02400b4d9d3] []
+INFO  10:58:27 Subscription Added: MassTransit.Services.HealthMonitoring.Messages.PingEndpointResponse, MassTransit  msmq://jreeselaptop2/mt_health?tx=false [684d7167-f3c6-48b6-bfae-a02400b4d9df] []

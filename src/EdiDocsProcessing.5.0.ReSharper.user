@@ -1,0 +1,839 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/d:DocsOut/d:Impl/f:ControlNumberRepository.cs" caret="1673" fromTop="26" />
+      <File id="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD/d:DTOs/f:ReceiptAcknowledgement.cs" caret="42" fromTop="0" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/d:Fedex/f:Fedex856Tester.cs" caret="4816" fromTop="0" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/f:DataAccessTestsForOutgoingDocuments.cs" caret="1193" fromTop="21" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/d:DocsOut/d:Impl/f:ReceiptAcknowledgementRepository.cs" caret="1035" fromTop="24" />
+      <File id="19CF0A80-97B7-4C2A-AB25-431C8CC7D90A/d:config/f:EdiDocsInRegistry.cs" caret="1858" fromTop="10" />
+      <File id="19CF0A80-97B7-4C2A-AB25-431C8CC7D90A/d:config/f:StructureMapBootstrapper.cs" caret="1274" fromTop="8" />
+      <File id="72806850-494B-46BB-9525-BDE88CA72ADC/d:config/f:StructureMapBootstrapper.cs" caret="1174" fromTop="10" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/d:StructureMap/f:EdiDocsOutStructureMapRegistryTester.cs" caret="1445" fromTop="7" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:BusinessPartnerResolverTester.cs" caret="1583" fromTop="12" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:OrderHasBeenShippedSubscriberTest.cs" caret="9952" fromTop="12" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/f:AddressCreatorTester.cs" caret="883" fromTop="9" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/d:DocsOut/d:Impl/f:EdiDocumentSaver.cs" caret="1192" fromTop="9" />
+      <File id="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD/f:BusinessPartner.cs" caret="1091" fromTop="8" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/f:IAcceptMessages.cs" caret="1010" fromTop="9" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/f:Subscriber.cs" caret="3660" fromTop="11" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech850Parser.cs" caret="5371" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech997Parser.cs" caret="1402" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:IInitechFileParser.cs" caret="1576" fromTop="17" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech810Creator.cs" caret="7436" fromTop="7" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:HierarchicalLevelLoopTester.cs" caret="807" fromTop="7" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:EdiSegmentTester.cs" caret="2061" fromTop="9" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/d:Common/f:BusinessPartnerSpecificResolverTester.cs" caret="421" fromTop="0" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:OrderRequestReceivedMessagePublisher.cs" caret="577" fromTop="16" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:App.config" caret="0" fromTop="0" />
+      <File id="72806850-494B-46BB-9525-BDE88CA72ADC/f:App.config" caret="0" fromTop="0" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:InitechBuildValueFactory.cs" caret="0" fromTop="0" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech856Creator.cs" caret="0" fromTop="0" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech856BackorderCreator.cs" caret="0" fromTop="0" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech855Creator.cs" caret="245" fromTop="6" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD/f:BusinessPartner.cs" caret="13" fromTop="0" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:HierarchicalLevelLoopTester.cs" caret="1752" fromTop="11" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/f:IAcceptMessages.cs" caret="1010" fromTop="16" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:BusinessPartnerResolverTester.cs" caret="1487" fromTop="9" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:OrderHasBeenShippedSubscriberTest.cs" caret="9952" fromTop="16" />
+      <File id="D074F99F-2DE6-4074-80A5-0DB87D9427DE/f:OrderHasBeenShippedSubscriberTest.cs" caret="9952" fromTop="9" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/f:AddressCreatorTester.cs" caret="890" fromTop="9" />
+      <File id="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD/f:BusinessPartner.cs" caret="453" fromTop="10" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/d:DocsOut/d:Impl/f:EdiDocumentSaver.cs" caret="1206" fromTop="9" />
+      <File id="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD/f:BusinessPartner.cs" caret="1091" fromTop="8" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/f:IAcceptMessages.cs" caret="1010" fromTop="9" />
+      <File id="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7/f:Subscriber.cs" caret="3660" fromTop="11" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech850Parser.cs" caret="3186" fromTop="13" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech850Parser.cs" caret="3186" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech850Parser.cs" caret="4098" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech850Parser.cs" caret="5371" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech997Parser.cs" caret="1127" fromTop="10" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:Initech997Parser.cs" caret="1402" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:IInitechFileParser.cs" caret="1008" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:IInitechFileParser.cs" caret="1180" fromTop="18" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:IInitechFileParser.cs" caret="1325" fromTop="9" />
+      <File id="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388/f:IInitechFileParser.cs" caret="1576" fromTop="17" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech810Creator.cs" caret="7436" fromTop="9" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech810Creator.cs" caret="7694" fromTop="7" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech810Creator.cs" caret="8817" fromTop="7" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:IntegrationTests/d:Common/f:BusinessPartnerSpecificResolverTester.cs" caret="833" fromTop="9" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:EdiSegmentTester.cs" caret="704" fromTop="9" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:EdiSegmentTester.cs" caret="2061" fromTop="9" />
+      <File id="89A76457-3AA3-469F-A9ED-DD8C2322BC1C/d:UnitTests/f:HierarchicalLevelLoopTester.cs" caret="954" fromTop="9" />
+      <File id="C5306AEF-31A4-439E-B5DE-1B41A37391BB/f:Initech855Creator.cs" caret="184" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="59" />
+      <Item value="order" priority="4" />
+      <Item value="OrderHasBeenShippedMessage`0" priority="0" />
+      <Item value="OrderRequestReceivedMessage`0" priority="3" />
+      <Item value="ord" priority="1" />
+      <Item value="FromCustomerValue" priority="0" />
+      <Item value="return" priority="64" />
+      <Item value="val" priority="0" />
+      <Item value="c" priority="9" />
+      <Item value="s" priority="8" />
+      <Item value="new" priority="61" />
+      <Item value="Endpoint`0" priority="1" />
+      <Item value="null" priority="19" />
+      <Item value="EndpointAddress" priority="0" />
+      <Item value="Uri`0" priority="0" />
+      <Item value="TService" priority="1" />
+      <Item value="IBusService`0" priority="0" />
+      <Item value="_notificationEndpoint" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="_firstDoc" priority="0" />
+      <Item value="For`0" priority="2" />
+      <Item value="EdiDocsOutSubscriberStarter`0" priority="0" />
+      <Item value="HostFactory`0" priority="0" />
+      <Item value="_srvName" priority="1" />
+      <Item value="_srvDescription" priority="0" />
+      <Item value="Notes" priority="0" />
+      <Item value="SubscriptionServiceUrl" priority="1" />
+      <Item value="sbc" priority="0" />
+      <Item value="IPostActionSpecification`0" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="public" priority="78" />
+      <Item value="class" priority="18" />
+      <Item value="Subscriber" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="IEdiMessage`0" priority="2" />
+      <Item value="override" priority="1" />
+      <Item value="ServiceBusFactory`0" priority="0" />
+      <Item value="bool" priority="7" />
+      <Item value="T`0" priority="0" />
+      <Item value="msg" priority="7" />
+      <Item value="BusinessPartner`0" priority="26" />
+      <Item value="typeof" priority="2" />
+      <Item value="DateTime`0" priority="11" />
+      <Item value="factories" priority="0" />
+      <Item value="f" priority="3" />
+      <Item value="partner" priority="5" />
+      <Item value="documentCreators" priority="0" />
+      <Item value="char" priority="0" />
+      <Item value="EdiDocumentTypes`0" priority="3" />
+      <Item value="static" priority="4" />
+      <Item value="if" priority="16" />
+      <Item value="_current" priority="3" />
+      <Item value="AppDomainInitializer`0" priority="0" />
+      <Item value="private" priority="14" />
+      <Item value="IServiceBus`0" priority="0" />
+      <Item value="string" priority="42" />
+      <Item value="throw" priority="5" />
+      <Item value="NullReferenceException" priority="0" />
+      <Item value="Current" priority="0" />
+      <Item value="ServiceBus`0" priority="0" />
+      <Item value="AfpServiceBus`0" priority="0" />
+      <Item value="Bus`0" priority="4" />
+      <Item value="lineItem" priority="0" />
+      <Item value="IMessagePublisher`0" priority="0" />
+      <Item value="FakeMessagePublisher`0" priority="0" />
+      <Item value="try" priority="1" />
+      <Item value="Logger`0" priority="1" />
+      <Item value="this" priority="3" />
+      <Item value="EDIXmlSegment`0" priority="5" />
+      <Item value="decimal" priority="3" />
+      <Item value="seg" priority="23" />
+      <Item value="buildValues" priority="3" />
+      <Item value="unitPrice" priority="0" />
+      <Item value="_buildFactory" priority="1" />
+      <Item value="It`0" priority="1" />
+      <Item value="SegmentLabel`0" priority="5" />
+      <Item value="Console`0" priority="6" />
+      <Item value="tempSeg" priority="1" />
+      <Item value="IBusinessPartnerResolver" priority="2" />
+      <Item value="_resolver" priority="5" />
+      <Item value="_sut" priority="3" />
+      <Item value="ServiceLocator`0" priority="2" />
+      <Item value="message" priority="9" />
+      <Item value="doc" priority="12" />
+      <Item value="_segmentFactory" priority="12" />
+      <Item value="orderMessage" priority="3" />
+      <Item value="code" priority="9" />
+      <Item value="l" priority="2" />
+      <Item value="InvoicedOrderLine" priority="0" />
+      <Item value="ediStr" priority="1" />
+      <Item value="arr" priority="3" />
+      <Item value="Length" priority="0" />
+      <Item value="IDocumentParser`0" priority="1" />
+      <Item value="ICreateEdiContentFrom" priority="3" />
+      <Item value="MicroCenter855Creator`0" priority="0" />
+      <Item value="lst" priority="12" />
+      <Item value="Package`0" priority="0" />
+      <Item value="p" priority="9" />
+      <Item value="GetOrder`0" priority="1" />
+      <Item value="processFilesFor`0" priority="0" />
+      <Item value="IMicroCenter850LineParser`0" priority="0" />
+      <Item value="void" priority="11" />
+      <Item value="segment" priority="0" />
+      <Item value="seg_list" priority="0" />
+      <Item value="segmentsProcessed" priority="0" />
+      <Item value="IEdiMessagePublisher`0" priority="0" />
+      <Item value="ChangeOrderMessage`0" priority="0" />
+      <Item value="ChangeOrderMessagePublisher`0" priority="0" />
+      <Item value="OrderChangeRequestReceivedMessage`0" priority="4" />
+      <Item value="create_transaction_set`0" priority="0" />
+      <Item value="OrderChangeRequestReceivedMessage" priority="0" />
+      <Item value="BusinessPartnerCode" priority="2" />
+      <Item value="IBusinessPartnerSpecificServiceResolver`0" priority="0" />
+      <Item value="buildMsg`0" priority="1" />
+      <Item value="creator" priority="1" />
+      <Item value="_consumer" priority="1" />
+      <Item value="IConsumer`0" priority="0" />
+      <Item value="ConsumerConnectorCache`0" priority="0" />
+      <Item value="CustomerOrderChangeLine" priority="0" />
+      <Item value="ApplicationException" priority="0" />
+      <Item value="BusinessPartnerExtensions`0" priority="0" />
+      <Item value="TransmissionPath`0" priority="2" />
+      <Item value="pathToUse" priority="0" />
+      <Item value="FedEx" priority="0" />
+      <Item value="Edict" priority="0" />
+      <Item value="hl" priority="4" />
+      <Item value="_id" priority="3" />
+      <Item value="line" priority="3" />
+      <Item value="AddressCode" priority="0" />
+      <Item value="CustomerCode" priority="0" />
+      <Item value="QualifierCodePair`0" priority="6" />
+      <Item value="qualifier" priority="0" />
+      <Item value="q" priority="0" />
+      <Item value="int" priority="10" />
+      <Item value="segName" priority="0" />
+      <Item value="_ndx" priority="0" />
+      <Item value="IEnumerable" priority="6" />
+      <Item value="pairs" priority="1" />
+      <Item value="List" priority="8" />
+      <Item value="QualifierCodePair" priority="4" />
+      <Item value="Qualifier`0" priority="7" />
+      <Item value="ackMessage" priority="0" />
+      <Item value="NameCodeConstants`0" priority="1" />
+      <Item value="AddressTypeConstants`0" priority="0" />
+      <Item value="lines" priority="0" />
+      <Item value="customerOrderLine" priority="1" />
+      <Item value="hll" priority="8" />
+      <Item value="ShouldEqual`1" priority="0" />
+      <Item value="_parentValue" priority="1" />
+      <Item value="child" priority="1" />
+      <Item value="EdiDocsOut" priority="0" />
+      <Item value="SetHeader`0" priority="1" />
+      <Item value="id" priority="1" />
+      <Item value="levelCode" priority="2" />
+      <Item value="GetId`0" priority="0" />
+      <Item value="GetParent`0" priority="0" />
+      <Item value="const" priority="8" />
+      <Item value="hierarchyLevelId" priority="0" />
+      <Item value="_counter" priority="0" />
+      <Item value="Parent" priority="2" />
+      <Item value="parent" priority="6" />
+      <Item value="HierarchicalLevelLoop`0" priority="3" />
+      <Item value="hlParent" priority="0" />
+      <Item value="DateTypeConstants`0" priority="0" />
+      <Item value="HierarchicalLevelLoopWrapper`0" priority="1" />
+      <Item value="_topLoop" priority="3" />
+      <Item value="HierarchicalLevelLoop" priority="1" />
+      <Item value="ISegmentFactory`0" priority="0" />
+      <Item value="HierarchicalLevelLoopWrapper" priority="0" />
+      <Item value="factory" priority="0" />
+      <Item value="hasChild" priority="2" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="false" priority="0" />
+      <Item value="transactionSet" priority="1" />
+      <Item value="Root" priority="8" />
+      <Item value="AddLevel`0" priority="1" />
+      <Item value="_suppressHasChildElement" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="_header" priority="0" />
+      <Item value="_showHasChildElement" priority="0" />
+      <Item value="tme" priority="0" />
+      <Item value="while" priority="1" />
+      <Item value="Elements`0" priority="1" />
+      <Item value="EDIXmlElement`0" priority="3" />
+      <Item value="EDIXmlUtility`0" priority="0" />
+      <Item value="e" priority="4" />
+      <Item value="el" priority="0" />
+      <Item value="EdiElements" priority="1" />
+      <Item value="lastEl" priority="2" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="_factory" priority="0" />
+      <Item value="els" priority="5" />
+      <Item value="IsValidPair`0" priority="0" />
+      <Item value="codeQualifier" priority="0" />
+      <Item value="pair" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="segmentLabel" priority="0" />
+      <Item value="_ediXmlBuildValues" priority="3" />
+      <Item value="MicroCenter855Utility`0" priority="0" />
+      <Item value="Segments" priority="0" />
+      <Item value="EDIXmlMixedContainer`0" priority="0" />
+      <Item value="Descendants`0" priority="0" />
+      <Item value="EdiStructureNameConstants`0" priority="2" />
+      <Item value="address" priority="0" />
+      <Item value="Fedex855Creator`0" priority="0" />
+      <Item value="segmentList" priority="1" />
+      <Item value="ForEach`1" priority="0" />
+      <Item value="returnVal" priority="0" />
+      <Item value="segList" priority="5" />
+      <Item value="StructureMapBootstrapper`0" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="IFedEx810FileRepository`0" priority="0" />
+      <Item value="_fileUtil" priority="0" />
+      <Item value="path" priority="0" />
+      <Item value="_invoiceFileRepo" priority="1" />
+      <Item value="FedEx810FileRepository" priority="0" />
+      <Item value="files" priority="0" />
+      <Item value="ISegmentSplitter`0" priority="0" />
+      <Item value="FileUtilitiesExtensions`0" priority="0" />
+      <Item value="_splitter" priority="0" />
+      <Item value="contents" priority="0" />
+      <Item value="_parser" priority="1" />
+      <Item value="segs" priority="3" />
+      <Item value="SegmentLabel" priority="0" />
+      <Item value="EdiInvoice" priority="0" />
+      <Item value="InvoiceDate" priority="0" />
+      <Item value="begin" priority="1" />
+      <Item value="CastToDateTime`0" priority="0" />
+      <Item value="beginEls" priority="1" />
+      <Item value="InvoiceNumber" priority="0" />
+      <Item value="SentDate" priority="0" />
+      <Item value="groupSeg" priority="0" />
+      <Item value="Sales" priority="0" />
+      <Item value="salesSeg" priority="1" />
+      <Item value="Tax" priority="0" />
+      <Item value="inv" priority="0" />
+      <Item value="invoices" priority="0" />
+      <Item value="i" priority="5" />
+      <Item value="readonly" priority="0" />
+      <Item value="_notificationSender" priority="0" />
+      <Item value="EmailAddress`0" priority="1" />
+      <Item value="EmailAddress" priority="1" />
+      <Item value="Address" priority="1" />
+      <Item value="DisplayName" priority="1" />
+      <Item value="INotificationSender`0" priority="0" />
+      <Item value="DocumentId" priority="0" />
+      <Item value="docType" priority="1" />
+      <Item value="DocumentRecordPackage`0" priority="0" />
+      <Item value="EdiMessages" priority="0" />
+      <Item value="ResponseElementEntity`0" priority="0" />
+      <Item value="docContainer" priority="0" />
+      <Item value="ClassMap" priority="0" />
+      <Item value="ReceiptAcknowledgementMap`0" priority="0" />
+      <Item value="Table`0" priority="0" />
+      <Item value="Id`1" priority="0" />
+      <Item value="Map`0" priority="6" />
+      <Item value="interface" priority="1" />
+      <Item value="ReceiptAcknowledgement`0" priority="10" />
+      <Item value="IReceiptAcknowledgementRepository`0" priority="5" />
+      <Item value="Repository`0" priority="0" />
+      <Item value="ack" priority="30" />
+      <Item value="controlNum" priority="1" />
+      <Item value="Query`1" priority="1" />
+      <Item value="Count`1" priority="1" />
+      <Item value="Save`0" priority="1" />
+      <Item value="_ackRepo" priority="2" />
+      <Item value="ReceiptAcknowledgement" priority="2" />
+      <Item value="createAckRecord`0" priority="0" />
+      <Item value="Mock`0" priority="0" />
+      <Item value="_sessionSource" priority="0" />
+      <Item value="XElementEDIExtensionsTester`0" priority="0" />
+      <Item value="r" priority="0" />
+      <Item value="_docParser" priority="0" />
+      <Item value="ak2" priority="1" />
+      <Item value="ElementDelimiter" priority="0" />
+      <Item value="ElementAt`1" priority="0" />
+      <Item value="st" priority="1" />
+      <Item value="header" priority="1" />
+      <Item value="Generic997Parser" priority="0" />
+      <Item value="GenericDocParser" priority="0" />
+      <Item value="_elementDelimiter" priority="0" />
+      <Item value="get_element_delimiter`0" priority="1" />
+      <Item value="splitter" priority="0" />
+      <Item value="txt" priority="0" />
+      <Item value="akList" priority="1" />
+      <Item value="a" priority="7" />
+      <Item value="raList" priority="1" />
+      <Item value="acks" priority="20" />
+      <Item value="Acknowledgements`0" priority="0" />
+      <Item value="DocumentRecordPackage" priority="0" />
+      <Item value="ackMsg" priority="2" />
+      <Item value="ackList" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="package" priority="1" />
+      <Item value="ediTransactionSet" priority="1" />
+      <Item value="trans" priority="0" />
+      <Item value="DocType" priority="0" />
+      <Item value="ShippedLine`0" priority="0" />
+      <Item value="Bytecode" priority="0" />
+      <Item value="Lightweight" priority="0" />
+      <Item value="InvalidEDIDocumentException" priority="0" />
+      <Item value="EDIWorkflowException`0" priority="0" />
+      <Item value="ExpectedException" priority="0" />
+      <Item value="ReceiptAcknowledgementMsg`0" priority="0" />
+      <Item value="GetSentDocument`0" priority="0" />
+      <Item value="getAck`0" priority="0" />
+      <Item value="EDIWorkflowException" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.OrderRequestReceivedMessage">
+      <Item value="ShipToAddress" priority="0" />
+      <Item value="Customer" priority="0" />
+      <Item value="CustomerPO" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Structures.Address">
+      <Item value="QueryStrategy" priority="1" />
+      <Item value="AddressCode" priority="2" />
+      <Item value="AddressName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Structures.Customer">
+      <Item value="BillToAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Enumerations.QueryStrategy">
+      <Item value="PassThrough" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Infrastructure.Queue">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IInitializationExpression">
+      <Item value="AddRegistry`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.DTOs.DocumentInDTO">
+      <Item value="ResponseElements" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="Use`0" priority="3" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Topshelf.HostFactory">
+      <Item value="New`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Topshelf.HostConfigurators.HostConfigurator">
+      <Item value="SetServiceName`0" priority="0" />
+      <Item value="SetDisplayName`0" priority="0" />
+      <Item value="SetDescription`0" priority="0" />
+      <Item value="DependsOnMsmq`0" priority="0" />
+      <Item value="RunAs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Topshelf.Host">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MassTransit.BusConfigurators.ServiceBusConfigurator">
+      <Item value="UseSubscriptionService`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.IEdiMessage">
+      <Item value="BusinessPartnerNumber" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="DocumentId" priority="3" />
+      <Item value="BusinessPartnerCode" priority="2" />
+      <Item value="BusinessPurpose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.BusinessPartner">
+      <Item value="FedEx" priority="10" />
+      <Item value="Flextronics" priority="3" />
+      <Item value="MicroCenter" priority="14" />
+      <Item value="NationalInstruments" priority="2" />
+      <Item value="Initech" priority="4" />
+      <Item value="VandalayIndustries" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.BusinessPartner">
+      <Item value="Number" priority="0" />
+      <Item value="Code" priority="4" />
+      <Item value="VendorIdOfAfp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="2" />
+      <Item value="Now" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="CastToDateTime`0" priority="0" />
+      <Item value="ShouldEqual`1" priority="9" />
+      <Item value="Split`0" priority="0" />
+      <Item value="ToCharArray`0" priority="0" />
+      <Item value="Substring`0" priority="0" />
+      <Item value="PadLeft`0" priority="0" />
+      <Item value="DateFromEDIDate`0" priority="0" />
+      <Item value="CastToInt`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Where`1" priority="2" />
+      <Item value="Sum`1" priority="0" />
+      <Item value="ForEach`1" priority="3" />
+      <Item value="Select`2" priority="1" />
+      <Item value="Last`1" priority="1" />
+      <Item value="Count`1" priority="2" />
+      <Item value="Find`1" priority="4" />
+      <Item value="Skip`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.ICreateEdiContentFrom`1">
+      <Item value="CanProcess`0" priority="2" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.Enumerations.EdiDocumentTypes">
+      <Item value="Invoice" priority="0" />
+      <Item value="AdvanceShipNotice" priority="1" />
+      <Item value="PurchaseOrderAck" priority="0" />
+      <Item value="PurchaseOrderChangeRequest" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.Enumerations.EdiDocumentTypes">
+      <Item value="DocumentName" priority="0" />
+      <Item value="DocumentNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsOut.config.MassTransitEdiDocsOutBootstrapper">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MassTransit.Bus">
+      <Item value="Instance`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Services.Logging.Logger">
+      <Item value="Error`0" priority="1" />
+      <Item value="Info`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.EDIXmlSegment">
+      <Item value="Add`0" priority="5" />
+      <Item value="Elements`0" priority="0" />
+      <Item value="ElementByLabel`0" priority="0" />
+      <Item value="EdiElements" priority="0" />
+      <Item value="StripEmptyTrailingElements`0" priority="1" />
+      <Item value="Value" priority="0" />
+      <Item value="AddElements`0" priority="1" />
+      <Item value="SegmentName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.IBuildValueFactory">
+      <Item value="GetValues`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.Segment">
+      <Item value="Label" priority="6" />
+      <Item value="GetElements`0" priority="5" />
+      <Item value="Contents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.Enumerations.SegmentLabel">
+      <Item value="PricingInformation" priority="0" />
+      <Item value="ProductItemDescription" priority="0" />
+      <Item value="InvoiceBegin" priority="0" />
+      <Item value="GroupLabel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="5" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.IBusinessPartnerResolver`1">
+      <Item value="ResolveFrom`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Practices.ServiceLocation.ServiceLocator">
+      <Item value="Current" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.ServiceLocation.IServiceLocator">
+      <Item value="GetInstance`1" priority="4" />
+      <Item value="GetAllInstances`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.InvoicedOrderMessage">
+      <Item value="InvoiceDate" priority="0" />
+      <Item value="SalesTax" priority="0" />
+      <Item value="RequestDate" priority="0" />
+      <Item value="PODate" priority="0" />
+      <Item value="LineItems" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="ShipToAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.EDIStructures.EDIXmlTransactionSet">
+      <Item value="AddSegment`0" priority="5" />
+      <Item value="AddLoop`0" priority="0" />
+      <Item value="StripEmptyTrailingElements`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.ISegmentFactory">
+      <Item value="GetDateTimeSegment`0" priority="1" />
+      <Item value="GetCarrierDetail`0" priority="1" />
+      <Item value="GetServiceAllowanceAndChargeSegment`0" priority="0" />
+      <Item value="GetRoutingCarrierDetails`0" priority="0" />
+      <Item value="GetProductItemDescription`0" priority="1" />
+      <Item value="GetReferenceIDSegment`0" priority="0" />
+      <Item value="GetLineItemShipmentDetail`0" priority="0" />
+      <Item value="BuildValues" priority="0" />
+      <Item value="GetAddressLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="4" />
+      <Item value="ShouldEqual`1" priority="4" />
+      <Item value="ShouldBeGreaterThanOrEqualTo`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Sum`1" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="Find`0" priority="1" />
+      <Item value="GetRange`0" priority="0" />
+      <Item value="ForEach`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="Select`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.InvoicedOrderLine">
+      <Item value="Quantity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.EDIStructures.IEDIXmlTransactionSet">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="DocumentId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.Subscriber`1">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.OrderChangeRequestReceivedMessage">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.EDIStructures.HierarchicalLevelLoop">
+      <Item value="AddSegment`0" priority="0" />
+      <Item value="AddLevel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.ShippedLine">
+      <Item value="CustomerPartNo" priority="1" />
+      <Item value="QtyShipped" priority="0" />
+      <Item value="ItemID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.OrderShippingInfo">
+      <Item value="Lines" priority="0" />
+      <Item value="ShipToAddress" priority="2" />
+      <Item value="MaxDateShipped`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.Enumerations.Qualifier">
+      <Item value="AssignedByBuyer" priority="0" />
+      <Item value="BuyerPartNumber" priority="1" />
+      <Item value="VendorItemNumber" priority="1" />
+      <Item value="EmptyQualifier" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.QualifierCodePair">
+      <Item value="GetQualifierElementName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.Enumerations.Qualifier">
+      <Item value="DisplayName" priority="1" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EdiMessages.NameCodeConstants">
+      <Item value="AssignedByBuyer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.EDIXmlMixedContainer">
+      <Item value="AddSegment`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.CustomerOrderLine">
+      <Item value="CustomerPartNumber" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.QualifierCodePair">
+      <Item value="GetQualifierElementName`0" priority="0" />
+      <Item value="qualifier" priority="0" />
+      <Item value="GetQualfierValuePair`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.HierarchicalLevelLoop">
+      <Item value="AddLevel`0" priority="3" />
+      <Item value="SetHeader`0" priority="1" />
+      <Item value="GetParent`0" priority="2" />
+      <Item value="GetId`0" priority="2" />
+      <Item value="Value" priority="1" />
+      <Item value="AddSegment`0" priority="1" />
+      <Item value="AddLoop`0" priority="0" />
+      <Item value="SegmentCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.IBusinessPartnerSpecificServiceResolver">
+      <Item value="GetBuildValueFactoryFor`0" priority="0" />
+      <Item value="GetSegmentFactoryFor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsOut.config.StructureMapBootstrapper">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EdiMessages.DateTypeConstants">
+      <Item value="EstimatedShippedOn" priority="0" />
+      <Item value="Shipped" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XName">
+      <Item value="LocalName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.EDIXmlNode">
+      <Item value="Label" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.EDIStructures.HierarchicalLevelLoopWrapper">
+      <Item value="BuildWrapper`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.HierarchicalLevelLoopWrapper">
+      <Item value="AddTo`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Format`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.EDIXmlElement">
+      <Item value="Value" priority="0" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EdiMessages.EdiStructureNameConstants">
+      <Item value="TransactionSet" priority="0" />
+      <Item value="InterchangeControl" priority="0" />
+      <Item value="FunctionGroup" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.AddressLoop">
+      <Item value="Count`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="0" />
+      <Item value="AddYears`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.IDocumentParser">
+      <Item value="CanProcess`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsIn.config.StructureMapBootstrapper">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.Services.IFileUtilities">
+      <Item value="GetListFromFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Tests.IntegrationTests.Fedex.IFedEx810FileRepository">
+      <Item value="GetInvoicesFrom`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@AFPST.Common.Utilities">
+      <Item value="QuickFileText`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AFPST.Common.IO.FileEntity">
+      <Item value="FullPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.ISegmentSplitter">
+      <Item value="Split`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.IFileParser">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EdiSegmentCollection">
+      <Item value="SegmentList" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.Enumerations.SegmentLabel">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Tests.IntegrationTests.Fedex.EdiInvoice">
+      <Item value="InvoiceNumber" priority="0" />
+      <Item value="InvoiceDate" priority="0" />
+      <Item value="Sales" priority="0" />
+      <Item value="Tax" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.INotificationSender">
+      <Item value="SendNotification`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.DocumentFile">
+      <Item value="File" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@EDIDocsProcessing.Common.EmailAddressConstants">
+      <Item value="AccountsReceivableEmailAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="StringContaining`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.DocContainer">
+      <Item value="ControlNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityPart">
+      <Item value="GeneratedBy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityGenerationStrategyBuilder`1">
+      <Item value="Guid`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DataAccess.Maps.ReceiptAcknowledgement">
+      <Item value="AckControlNumber" priority="0" />
+      <Item value="AckReceiveDate" priority="0" />
+      <Item value="DocumentControlNumber" priority="0" />
+      <Item value="DocumentSendDate" priority="0" />
+      <Item value="DocumentType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.DTOs.ReceiptAcknowledgement">
+      <Item value="PartnerId" priority="4" />
+      <Item value="DocumentControlNumber" priority="8" />
+      <Item value="DocumentType" priority="3" />
+      <Item value="DocumentSendDate" priority="2" />
+      <Item value="AckControlNumber" priority="3" />
+      <Item value="AckReceiveDate" priority="1" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsOut.IReceiptAcknowledgementRepository">
+      <Item value="Save`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.DTOs.DocumentEntity">
+      <Item value="ControlNumber" priority="1" />
+      <Item value="DocumentID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="0" />
+      <Item value="Setup`1" priority="1" />
+      <Item value="Verify`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`1">
+      <Item value="Verifiable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsIn.IGenericDocumentParser">
+      <Item value="CanProcess`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.SegmentSplitter">
+      <Item value="Split`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsIn.impl.Generic997Parser">
+      <Item value="ProcessSegmentList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.Acknowledgements">
+      <Item value="Acks" priority="3" />
+      <Item value="DocumentId" priority="0" />
+      <Item value="ControlNumber" priority="2" />
+      <Item value="BusinessPartnerCode" priority="1" />
+      <Item value="BusinessPurpose" priority="0" />
+      <Item value="BusinessPartnerNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Core.DocsIn.impl.IGeneric997Parser">
+      <Item value="Equals`0" priority="0" />
+      <Item value="ProcessSegmentList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EdiMessages.ReceiptAcknowledgementMsg">
+      <Item value="ControlNumber" priority="4" />
+      <Item value="DocumentId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:EDIDocsProcessing.Common.EDIStructures.EDITransmissionPackage">
+      <Item value="GetInterchangeControl`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentConfiguration">
+      <Item value="ProxyFactoryFactory`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

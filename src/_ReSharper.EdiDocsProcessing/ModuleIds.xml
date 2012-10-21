@@ -1,0 +1,44 @@
+<Modules>
+  <Module PersistentId="72806850-494B-46BB-9525-BDE88CA72ADC" ModuleId="EDIDocsOut" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="AFPST.Common" />
+  <Module PersistentId="89A76457-3AA3-469F-A9ED-DD8C2322BC1C" ModuleId="EDIDocsProcessing.Tests" />
+  <Module PersistentId="D074F99F-2DE6-4074-80A5-0DB87D9427DE" ModuleId="EDIDocsProcessing.MessagingTests" />
+  <Module PersistentId="19CF0A80-97B7-4C2A-AB25-431C8CC7D90A" ModuleId="EDIDocsIn" />
+  <Module PersistentId="8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388" ModuleId="FedexEDIDocsIn" />
+  <Module PersistentId="C5306AEF-31A4-439E-B5DE-1B41A37391BB" ModuleId="FedexEDIDocsOut" />
+  <Module PersistentId="F5F0B092-A12D-44B0-AEA4-9A619E39A4DD" ModuleId="EDIDocsProcessing.Common" />
+  <Module PersistentId="1554FC4E-3637-4267-A635-D4F53D4D4DAB" ModuleId="EdiMessages" />
+  <Module PersistentId="4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7" ModuleId="EDIDocsProcessing.Core" />
+  <Module PersistentId="AFPST.Common, Version=0.0.1.0, Culture=neutral" ModuleId="AFPST.Common_1" />
+  <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
+  <Module PersistentId="EmailService.Messages, Version=1.0.0.0, Culture=neutral" ModuleId="EmailService.Messages" />
+  <Module PersistentId="FluentNHibernate, Version=1.2.0.712, Culture=neutral, PublicKeyToken=8aa435e3cb308880" ModuleId="FluentNHibernate" />
+  <Module PersistentId="LinFu.DynamicProxy, Version=1.0.4.18998, Culture=neutral, PublicKeyToken=62a6874124340d6e" ModuleId="LinFu.DynamicProxy" />
+  <Module PersistentId="MassTransit, Version=2.0.0.0, Culture=neutral" ModuleId="MassTransit" />
+  <Module PersistentId="MassTransit.StructureMapIntegration, Version=2.0.0.0, Culture=neutral" ModuleId="MassTransit.StructureMapIntegration" />
+  <Module PersistentId="MassTransitContrib, Version=1.0.0.0, Culture=neutral" ModuleId="MassTransitContrib" />
+  <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.CSharp" />
+  <Module PersistentId="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Practices.ServiceLocation" />
+  <Module PersistentId="Moq, Version=3.0.308.2, Culture=neutral, PublicKeyToken=69f491c39445e920" ModuleId="Moq" />
+  <Module PersistentId="NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" ModuleId="NHibernate" />
+  <Module PersistentId="NHibernate.ByteCode.Castle, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" ModuleId="NHibernate.ByteCode.Castle" />
+  <Module PersistentId="NHibernate.ByteCode.LinFu, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" ModuleId="NHibernate.ByteCode.LinFu" />
+  <Module PersistentId="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" ModuleId="nunit.framework" />
+  <Module PersistentId="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223" ModuleId="StructureMap" />
+  <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
+  <Module PersistentId="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Core" />
+  <Module PersistentId="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml.Linq" />
+  <Module PersistentId="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.DataSetExtensions" />
+  <Module PersistentId="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data" />
+  <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml" />
+  <Module PersistentId="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821" ModuleId="log4net" />
+  <Module PersistentId="MassTransit.Transports.Msmq, Version=2.0.0.0, Culture=neutral" ModuleId="MassTransit.Transports.Msmq" />
+  <Module PersistentId="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration" />
+  <Module PersistentId="Topshelf, Version=2.2.1.0, Culture=neutral" ModuleId="Topshelf" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="Magnum, Version=1.1.1.0, Culture=neutral" ModuleId="Magnum" />
+  <Module PersistentId="System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Transactions" />
+  <Module PersistentId="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Extensions" />
+  <Module PersistentId="EmailService.Messages, Version=1.0.0.91, Culture=neutral" ModuleId="EmailService.Messages_1" />
+  <Module PersistentId="JetBrains.Annotations, Version=5.0.1659.36, Culture=neutral, PublicKeyToken=1010a0d8d6380325" ModuleId="JetBrains.Annotations" />
+</Modules>

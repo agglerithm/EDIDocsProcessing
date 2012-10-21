@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 9.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="1.36">
+ <Targets>
+  <Target Name="C:\sandbox\mvccontrib-trunk\src\MvcContrib.NHamlViewEngine\bin\Release\MvcContrib.NHamlViewEngine.dll">
+   <Modules>
+    <Module Name="mvccontrib.nhamlviewengine.dll">
+     <Messages>
+      <Message Id="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" TypeName="UseOnlyApiFromTargetedFramework" Category="Microsoft.Portability" CheckId="CA1903" Status="Active" Created="2008-09-22 17:56:02Z" FixCategory="DependsOnFix">
+       <Issue Name="AssemblyReferencesAssembly" Certainty="95" Level="Error">Assembly 'MvcContrib.NHamlViewEngine.dll' has a reference to assembly 'System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. Because this assembly was introduced in .NET Framework 3.5 Service Pack 1, which is higher than the project's target framework, .NET Framework 3.5, your application may fail to run on systems without this framework installed.</Issue>
+      </Message>
+     </Messages>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="UseOnlyApiFromTargetedFramework" Category="Microsoft.Portability" CheckId="CA1903">
+   <Name>Use only API from targeted framework</Name>
+   <Description />
+   <Resolution Name="AssemblyReferencesAssembly">Assembly {0} has a reference to assembly '{1}'. Because this assembly was introduced in {2}, which is higher than the project's target framework, {3}, your application may fail to run on systems without this framework installed.</Resolution>
+   <Owner />
+   <Url>http://go.microsoft.com/fwlink/?LinkId=120307</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="PortabilityRules.dll" Version="9.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89A76457-3AA3-469F-A9ED-DD8C2322BC1C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDIDocsProcessing.Tests</RootNamespace>
+    <AssemblyName>EDIDocsProcessing.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFPST.Common, Version=0.0.1.687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\AFP\AFPST.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EmailService.Messages, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\EmailService.Messages\EmailService.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=0.1.0.394, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\FluentNHibernate\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy, Version=1.0.4.18998, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\NHibernate\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransit, Version=0.5.0.1776, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\MassTransit\net-4.0\MassTransit.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransit.StructureMapIntegration">
+      <HintPath>..\..\dist\MassTransit\net-4.0\Containers\MassTransit.StructureMapIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransitContrib">
+      <HintPath>..\..\lib\MassTransitContrib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\lib\ServiceLocator\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=2.0.2991.26580, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Moq\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle, Version=2.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\NHibernate\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.LinFu">
+      <HintPath>..\..\dist\NHibernate\NHibernate.ByteCode.LinFu.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.0.9122, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\nunit\2.5.2.9222\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\StructureMap\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions.cs" />
+    <Compile Include="IntegrationTests\AddressSegmentCreatorResolverTester.cs" />
+    <Compile Include="IntegrationTests\Common\AssignerTester.cs" />
+    <Compile Include="IntegrationTests\Common\BusinessPartnerSpecificResolverTester.cs" />
+    <Compile Include="IntegrationTests\Common\EdiFileReaderTester.cs" />
+    <Compile Include="IntegrationTests\Common\ExecutePostConsumeActionTester.cs" />
+    <Compile Include="IntegrationTests\Common\IO\FileUtilitiesTester.cs" />
+    <Compile Include="IntegrationTests\DataAccessTestsForOutgoingDocuments.cs" />
+    <Compile Include="IntegrationTests\DataAccessTestsForIncomingDocuments.cs" />
+    <Compile Include="IntegrationTests\EdiConfigurationTester.cs" />
+    <Compile Include="IntegrationTests\EDIDocsInServiceTester.cs" />
+    <Compile Include="IntegrationTests\FakeMessagePublisher.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex810FileRepositoryTester.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex850ParserTester.cs" />
+    <Compile Include="IntegrationTests\Fedex\IFedEx810FileRepository.cs" />
+    <Compile Include="IntegrationTests\AddressCreatorTester.cs" />
+    <Compile Include="IntegrationTests\ShippedOrderMessageSubscriberTester.cs" />
+    <Compile Include="IntegrationTests\StructureMap\EdiDocsInStructureMapRegistriesTester.cs" />
+    <Compile Include="IntegrationTests\StructureMap\EdiDocsOutStructureMapRegistryTester.cs" />
+    <Compile Include="IntegrationTests\StructureMap\StructureMapTestHelper.cs" />
+    <Compile Include="UnitTests\Core\DocsIn\Generic997ParserTester.cs" />
+    <Compile Include="UnitTests\Core\DocsIn\SegmentExtractorTester.cs" />
+    <Compile Include="UnitTests\Core\InvoicedOrderMessageNotifierTester.cs" />
+    <Compile Include="UnitTests\Core\NotificationSenderTester.cs" />
+    <Compile Include="UnitTests\Core\PublishEdiAsnSentSpecificationTester.cs" />
+    <Compile Include="UnitTests\Core\SegmentListRemoveTester.cs" />
+    <Compile Include="UnitTests\Core\ShippedOrderMessageNotifierTester.cs" />
+    <Compile Include="UnitTests\Core\SplitLoopTester.cs" />
+    <Compile Include="UnitTests\EDIDocsInServiceTester.cs" />
+    <Compile Include="IntegrationTests\EdiDocsOutServiceTester.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex850Tester.cs" />
+    <Compile Include="IntegrationTests\Fedex\FedexFileProcServiceTester.cs" />
+    <Compile Include="IntegrationTests\NHibernate\NHibernateTransactionTester.cs" />
+    <Compile Include="UnitTests\EdiMessages\AddressTester.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex810Tester.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex855Tester.cs" />
+    <Compile Include="IntegrationTests\Fedex\Fedex856Tester.cs" />
+    <Compile Include="IntegrationTests\BusinessPartnerResolverTest.cs" />
+    <Compile Include="UnitTests\Core\DataAccess\UOWTest.cs" />
+    <Compile Include="UnitTests\Core\DocsOut\ControlNumberRepositoryTester.cs" />
+    <Compile Include="UnitTests\EdiDocsOut\InvoicedOrderMessageSubscriberTester.cs" />
+    <Compile Include="UnitTests\EdiDocsOut\ShippedOrderMessageSubscriberTester.cs" />
+    <Compile Include="UnitTests\EdiDocsOut\SubscriberTester.cs" />
+    <Compile Include="UnitTests\Core\DocsOut\CreateEdiDocumentFromTester.cs" />
+    <Compile Include="UnitTests\Core\DocsOut\EdiDocumentSaverTester.cs" />
+    <Compile Include="UnitTests\EdiMessages\CreateOrderMessagetester.cs" />
+    <Compile Include="UnitTests\EdiMessages\CustomerPaymentMessageTester.cs" />
+    <Compile Include="UnitTests\EdiMessages\InvoicedOrderLineTester.cs" />
+    <Compile Include="UnitTests\EdiMessages\PackageSpecificationTester.cs" />
+    <Compile Include="UnitTests\EdiMessages\PackageTester.cs" />
+    <Compile Include="UnitTests\EdiSegmentTester.cs" />
+    <Compile Include="UnitTests\Fedex\Fedex850ParserTester.cs" />
+    <Compile Include="UnitTests\AddressParserTester.cs" />
+    <Compile Include="UnitTests\CustomerEntityTester.cs" />
+    <Compile Include="UnitTests\CustomerOrderEntityTester.cs" />
+    <Compile Include="UnitTests\DocSplitterTester.cs" />
+    <Compile Include="UnitTests\EDIUtilitiesTester.cs" />
+    <Compile Include="UnitTests\EnumerableExtensionsTester.cs" />
+    <Compile Include="UnitTests\Fedex\FedexFileParserTester.cs" />
+    <Compile Include="UnitTests\Fedex\FedexFileProcServiceTester.cs" />
+    <Compile Include="UnitTests\Fedex\FedexLineParserTester.cs" />
+    <Compile Include="UnitTests\Fedex\TestRegistry.cs" />
+    <Compile Include="UnitTests\GroupSplitterTester.cs" />
+    <Compile Include="IntegrationTests\Fedex\FedexFileParseServiceTester.cs" />
+    <Compile Include="UnitTests\HierarchicalLevelLoopTester.cs" />
+    <Compile Include="UnitTests\InterchangeSplitterTester.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTests\POLineParserTester.cs" />
+    <Compile Include="UnitTests\QualifierValuePairTester.cs" />
+    <Compile Include="UnitTests\ResponseReferenceRecorderTester.cs" />
+    <Compile Include="UnitTests\TestExtensions.cs" />
+    <Compile Include="UnitTests\TestXmlUtilities.cs" />
+    <Compile Include="UnitTests\XElementEDIExtensionsTester.cs" />
+    <Compile Include="UnitTests\XmlUtilityTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDIDocsIn.Common\EDIDocsProcessing.Common.csproj">
+      <Project>{F5F0B092-A12D-44B0-AEA4-9A619E39A4DD}</Project>
+      <Name>EDIDocsProcessing.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDIDocsIn\EDIDocsIn.csproj">
+      <Project>{19CF0A80-97B7-4C2A-AB25-431C8CC7D90A}</Project>
+      <Name>EDIDocsIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDIDocsOut\EDIDocsOut.csproj">
+      <Project>{72806850-494B-46BB-9525-BDE88CA72ADC}</Project>
+      <Name>EDIDocsOut</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDIDocsProcessing.Core\EDIDocsProcessing.Core.csproj">
+      <Project>{4F0CEA30-7D8F-40C8-BB55-779EAE5A35C7}</Project>
+      <Name>EDIDocsProcessing.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EdiMessages\EdiMessages.csproj">
+      <Project>{1554FC4E-3637-4267-A635-D4F53D4D4DAB}</Project>
+      <Name>EdiMessages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FedexEDIDocsIn\InitechEDIDocsIn.csproj">
+      <Project>{8DAE3FE6-4AA5-4847-A3F6-A7C5A84EC388}</Project>
+      <Name>InitechEDIDocsIn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FedexEDIDocsOut\InitechEDIDocsOut.csproj">
+      <Project>{C5306AEF-31A4-439E-B5DE-1B41A37391BB}</Project>
+      <Name>InitechEDIDocsOut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IntegrationTests\build\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

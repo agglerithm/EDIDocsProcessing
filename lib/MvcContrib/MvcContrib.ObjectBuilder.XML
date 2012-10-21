@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MvcContrib.ObjectBuilder</name>
+    </assembly>
+    <members>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcContrib.ObjectBuilder.DependencyContainer"/> class
+            that supports attribute-based reflection.
+            </summary>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcContrib.ObjectBuilder.DependencyContainer"/> class.
+            </summary>
+            <param name="enableReflection">Set to <c>true</c> to enable support for
+            attribute-based reflection</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcContrib.ObjectBuilder.DependencyContainer"/> class.
+            </summary>
+            <param name="xml">The XML configuration for the container</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.#ctor(Microsoft.Practices.ObjectBuilder.IBuilderConfigurator{Microsoft.Practices.ObjectBuilder.BuilderStage})">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcContrib.ObjectBuilder.DependencyContainer"/> class.
+            </summary>
+            <param name="configurator">The container configurator.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing,
+            or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.FindSingletons``1">
+            <summary>
+            Finds all the singletons in the container that implement the given type.
+            </summary>
+            <returns>An enumeration of the matching items</returns>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.Get``1">
+            <summary>
+            Gets an object of the given type from the container.
+            </summary>
+            <returns>The object</returns>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.Get(System.Type)">
+            <summary>
+            Gets an object of the given type from the container.
+            </summary>
+            <returns>The object</returns>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterInstance``1(``0)">
+            <summary>
+            Registers a singleton instance in the container.
+            </summary>
+            <typeparam name="TBuild">The type of the singleton</typeparam>
+            <param name="item">The item instance to be registered as the singleton</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterSingleton``1">
+            <summary>
+            Registers the given type as a singleton in the container.
+            </summary>
+            <typeparam name="TBuild">The type to be made a singleton</typeparam>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterSingleton(System.Type)">
+            <summary>
+            Registers the given type as a singleton in the container.
+            </summary>
+            <typeparam name="TBuild">The type to be made a singleton</typeparam>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterTypeMapping``2">
+            <summary>
+            Registers a type mapping in the container.
+            </summary>
+            <typeparam name="TRequested">The type that is requested by the user</typeparam>
+            <typeparam name="TToBuild">The type to be built instead</typeparam>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterTypeMapping(System.Type,System.Type)">
+            <summary>
+            Registers a type mapping in the container.
+            </summary>
+            <typeparam name="TRequested">The type that is requested by the user</typeparam>
+            <typeparam name="TToBuild">The type to be built instead</typeparam>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterPropertySetter``1(System.String,System.Object)">
+            <summary>
+            Registers a property setter.
+            </summary>
+            <typeparam name="T">The type</typeparam>
+            <param name="propertyName">Name of the property.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterPropertySetter(System.Type,System.String,System.Object)">
+            <summary>
+            Registers the property setter.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="propertyName">Name of the property.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterPropertySetter``2(System.String)">
+            <summary>
+            Registers a property setter.
+            </summary>
+            <typeparam name="TType">The type</typeparam>
+            <typeparam name="TValue">The type of the value. An instance of this type will be retreived from the container</typeparam>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterPropertySetter(System.Type,System.String,System.Type)">
+            <summary>
+            Registers the property setter.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="propertyName">Name of the property.</param>
+            <param name="value">The type of the value. An instance of this type will be retreived from the container.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterMethodInjection``1(System.String,Microsoft.Practices.ObjectBuilder.IParameter[])">
+            <summary>
+            Registers a method injection.
+            </summary>
+            <typeparam name="T">The type</typeparam>
+            <param name="methodName">Name of the method.</param>
+            <param name="parameters">The parameters.</param>
+        </member>
+        <member name="M:MvcContrib.ObjectBuilder.DependencyContainer.RegisterMethodInjection(System.Type,System.String,Microsoft.Practices.ObjectBuilder.IParameter[])">
+            <summary>
+            Registers a method injection.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="methodName">Name of the method.</param>
+            <param name="parameters">The parameters.</param>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ConstructorReflectionStrategy">
+            <summary>
+            Strategy that performs injection of constructor policies.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1">
+            <summary>
+            Base generic strategy for all injection attribute processors.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            Retrieves the list of members to iterate looking for 
+            injection attributes, such as properties and constructor 
+            parameters.
+            </summary>
+            <param name="context">The build context.</param>
+            <param name="typeToBuild">Type being built.</param>
+            <param name="existing">Existing object being built, if available.</param>
+            <param name="idToBuild">The ID being built.</param>
+            <returns>An enumerable wrapper around the IReflectionMemberInfo{T} interfaces that
+            represent the members to be inspected for reflection.</returns>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.BuildUp(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            See <see cref="M:Microsoft.Practices.ObjectBuilder.BuilderStrategy.BuildUp(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})">
+            <summary>
+            Abstract method which takes parameters and adds them to the appropriate policy.
+            Must be overridden in derived classes.
+            </summary>
+            <param name="context">The build context.</param>
+            <param name="typeToBuild">The type being built.</param>
+            <param name="idToBuild">The ID being built.</param>
+            <param name="member">The member that's being reflected over.</param>
+            <param name="parameters">The parameters used to satisfy the member call.</param>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0})">
+            <summary>
+            Abstract method used to determine whether a member should be processed. Must be overridden
+            in derived classes.
+            </summary>
+            <param name="member">The member being reflected over.</param>
+            <returns>Returns true if the member should get injection; false otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ConstructorReflectionStrategy.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ConstructorReflectionStrategy.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.ConstructorInfo},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ConstructorReflectionStrategy.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.ConstructorInfo})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0})"/> for more information.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.CreationStrategy">
+            <summary>
+            Implementation of <see cref="T:Microsoft.Practices.ObjectBuilder.IBuilderStrategy"/> which creates objects.
+            </summary>
+            <remarks>
+            <para>This strategy looks for policies in the context registered under the interface type
+            <see cref="T:Microsoft.Practices.ObjectBuilder.ICreationPolicy"/>. If it cannot find a policy on how to create the object,
+            it will select the first constructor that returns from reflection, and re-runs the chain
+            to create all the objects required to fulfill the constructor's parameters.</para>
+            <para>If the Build method is passed an object via the existing parameter, then it
+            will do nothing (since the object already exists). This allows this strategy to be
+            in the chain when running dependency injection on existing objects, without fear that
+            it will attempt to re-create the object.</para>
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.CreationStrategy.BuildUp(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            Override of <see cref="M:Microsoft.Practices.ObjectBuilder.IBuilderStrategy.BuildUp(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)"/>. Creates the requested object.
+            </summary>
+            <param name="context">The build context.</param>
+            <param name="typeToBuild">The type of object to be created.</param>
+            <param name="existing">The existing object. If not null, this strategy does nothing.</param>
+            <param name="idToBuild">The ID of the object to be created.</param>
+            <returns>The created object</returns>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.MethodReflectionStrategy">
+            <summary>
+            Strategy that describes method call via attributes.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.MethodReflectionStrategy.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.MethodReflectionStrategy.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.MethodInfo},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.MethodReflectionStrategy.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.MethodInfo})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0})"/> for more information.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.PropertyReflectionStrategy">
+            <summary>
+            Strategy that describes property injection via attributes.
+            </summary>
+            <remarks>
+            This strategy processes any injection attribute that inherits from <see cref="T:Microsoft.Practices.ObjectBuilder.ParameterAttribute"/>, 
+            thus providing a generic strategy that easily allows for extension through new injection attributes and 
+            their corresponding <see cref="T:Microsoft.Practices.ObjectBuilder.IParameter"/> implementations (if necessary) to retrieve values.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.PropertyReflectionStrategy.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.GetMembers(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.Object,System.String)"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.PropertyReflectionStrategy.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.PropertyInfo},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.AddParametersToPolicy(Microsoft.Practices.ObjectBuilder.IBuilderContext,System.Type,System.String,Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0},System.Collections.Generic.IEnumerable{Microsoft.Practices.ObjectBuilder.IParameter})"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.PropertyReflectionStrategy.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{System.Reflection.PropertyInfo})">
+            <summary>
+            See <see cref="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.Strategies.ReflectionStrategy`1.MemberRequiresProcessing(Microsoft.Practices.ObjectBuilder.IReflectionMemberInfo{`0})"/> for more information.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1">
+            <summary>
+            An implementation helper class for <see cref="T:Microsoft.Practices.ObjectBuilder.IBuilder`1"/>.
+            </summary>
+            <typeparam name="TStageEnum">The build stage enumeration.</typeparam>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.#ctor(Microsoft.Practices.ObjectBuilder.IBuilderConfigurator{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1"/> class using the
+            provided configurator.
+            </summary>
+            <param name="configurator">The configurator that will configure the builder.</param>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.BuildUp``1(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,System.String,System.Object,Microsoft.Practices.ObjectBuilder.PolicyList[])">
+            <summary>
+            See <see cref="M:Microsoft.Practices.ObjectBuilder.IBuilder`1.BuildUp``1(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,System.String,System.Object,Microsoft.Practices.ObjectBuilder.PolicyList[])"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.BuildUp(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,System.Type,System.String,System.Object,Microsoft.Practices.ObjectBuilder.PolicyList[])">
+            <summary>
+            See <see cref="M:Microsoft.Practices.ObjectBuilder.IBuilder`1.BuildUp(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,System.Type,System.String,System.Object,Microsoft.Practices.ObjectBuilder.PolicyList[])"/> for more information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.TearDown``1(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,``0)">
+            <summary>
+            See <see cref="M:Microsoft.Practices.ObjectBuilder.IBuilder`1.TearDown``1(Microsoft.Practices.ObjectBuilder.IReadWriteLocator,``0)"/> for more information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.Policies">
+            <summary>
+            See <see cref="P:Microsoft.Practices.ObjectBuilder.IBuilder`1.Policies"/> for more information.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Practices.CompositeWeb.ObjectBuilder.WCSFBuilderBase`1.Strategies">
+            <summary>
+            See <see cref="P:Microsoft.Practices.ObjectBuilder.IBuilder`1.Strategies"/> for more information.
+            </summary>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.ContainerXmlConfigElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ContainerXmlConfigElement.Mappings">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ContainerXmlConfigElement.BuildRules">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ContainerXmlConfigElement.EnableReflection">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.MappingElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.MappingElement.FromType">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.MappingElement.ToType">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.MethodElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.MethodElement.Items">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.MethodElement.Name">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.RefElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.RefElement.Type">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.ValueElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ValueElement.Type">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ValueElement.Value">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.PropertyElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.PropertyElement.Item">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.PropertyElement.Name">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.ConstructorElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.ConstructorElement.Items">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement.Constructor">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement.Property">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement.Method">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement.Type">
+            <remarks/>
+        </member>
+        <member name="P:MvcContrib.ObjectBuilder.Configuration.BuildRuleElement.Mode">
+            <remarks/>
+        </member>
+        <member name="T:MvcContrib.ObjectBuilder.Configuration.ModeElement">
+            <remarks/>
+        </member>
+        <member name="F:MvcContrib.ObjectBuilder.Configuration.ModeElement.Singleton">
+            <remarks/>
+        </member>
+        <member name="F:MvcContrib.ObjectBuilder.Configuration.ModeElement.Instance">
+            <remarks/>
+        </member>
+    </members>
+</doc>

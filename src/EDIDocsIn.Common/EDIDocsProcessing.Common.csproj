@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5F0B092-A12D-44B0-AEA4-9A619E39A4DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDIDocsProcessing.Common</RootNamespace>
+    <AssemblyName>EDIDocsProcessing.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFPST.Common, Version=0.0.1.687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\AFP\AFPST.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EmailService.Messages">
+      <HintPath>..\..\dist\EmailService.Messages\EmailService.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Magnum, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dist\MassTransit\net-4.0\Magnum.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransit">
+      <HintPath>..\..\dist\MassTransit\net-4.0\MassTransit.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransit.StructureMapIntegration">
+      <HintPath>..\..\dist\MassTransit\net-4.0\Containers\MassTransit.StructureMapIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="MassTransit.Transports.Msmq">
+      <HintPath>..\..\dist\MassTransit\net-4.0\Transports\MSMQ\MassTransit.Transports.Msmq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\lib\ServiceLocator\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\..\dist\StructureMap\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>CommonAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="BusinessPartner.cs" />
+    <Compile Include="configs\EdiDocsCommonRegistry.cs" />
+    <Compile Include="DTOs\ReceiptAcknowledgement.cs" />
+    <Compile Include="EDIStructures\HierarchicalLevelLoopWrapper.cs" />
+    <Compile Include="EDIStructures\QualifierValuePair.cs" />
+    <Compile Include="EmailAddressConstants.cs" />
+    <Compile Include="Extensions\BusinessPartnerExtensions.cs" />
+    <Compile Include="Extensions\DocumentContainerExtensions.cs" />
+    <Compile Include="Extensions\EdiMessageExtensions.cs" />
+    <Compile Include="IAssignDocumentsToPartners.cs" />
+    <Compile Include="INotificationSender.cs" />
+    <Compile Include="NotificationSender.cs" />
+    <Compile Include="Publishers\ChangeOrderMessagePublisher.cs" />
+    <Compile Include="Publishers\CreateOrderMessagePublisher.cs" />
+    <Compile Include="DocContainer.cs" />
+    <Compile Include="DocumentRecordPackage.cs" />
+    <Compile Include="DTOs\DocumentEntity.cs" />
+    <Compile Include="DTOs\DocumentLineItemEntity.cs" />
+    <Compile Include="DTOs\ISAEntity.cs" />
+    <Compile Include="DTOs\ResponseElementEntity.cs" />
+    <Compile Include="EdiConfig.cs" />
+    <Compile Include="EdiFileContainer.cs" />
+    <Compile Include="EdiFileInfo.cs" />
+    <Compile Include="EdiFileReader.cs" />
+    <Compile Include="EdiSegmentCollection.cs" />
+    <Compile Include="Enumerations\EdiDocumentTypes.cs" />
+    <Compile Include="EDIStructures\AddressLoop.cs" />
+    <Compile Include="EDIStructures\EDITransmissionPackage.cs" />
+    <Compile Include="EDIStructures\EDIXmlBuildValues.cs" />
+    <Compile Include="EDIStructures\EDIXmlContainer.cs" />
+    <Compile Include="EDIStructures\EDIXmlElement.cs" />
+    <Compile Include="EDIStructures\EDIXmlFunctionGroup.cs" />
+    <Compile Include="EDIStructures\EDIXmlInterchangeControl.cs" />
+    <Compile Include="EDIStructures\EDIXmlMixedContainer.cs" />
+    <Compile Include="EDIStructures\EDIXmlNode.cs" />
+    <Compile Include="EDIStructures\EDIXmlSegment.cs" />
+    <Compile Include="EDIStructures\EDIXmlTransactionSet.cs" />
+    <Compile Include="EDIStructures\EDIXmlUtility.cs" />
+    <Compile Include="EDIStructures\HierarchicalLevelLoop.cs" />
+    <Compile Include="EDIStructures\Segment.cs" />
+    <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="Enumerations\SegmentLabel.cs" />
+    <Compile Include="Extensions\ConfigurationExtensions.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Extensions\DataFieldExtensions.cs" />
+    <Compile Include="Extensions\FileUtilitiesExtensions.cs" />
+    <Compile Include="EdiFileProcessingService.cs" />
+    <Compile Include="Extensions\FormattingExtensions.cs" />
+    <Compile Include="Extensions\XElementEDIExtensions.cs" />
+    <Compile Include="GroupContainer.cs" />
+    <Compile Include="IBuildValueFactory.cs" />
+    <Compile Include="IBusinessPartnerSpecificServiceResolver.cs" />
+    <Compile Include="IDocumentParser.cs" />
+    <Compile Include="IEdiFileReader.cs" />
+    <Compile Include="IEdiInContainer.cs" />
+    <Compile Include="IFileParser.cs" />
+    <Compile Include="IEdiFileProcessingService.cs" />
+    <Compile Include="EDIConstants.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\XElementExtensions.cs" />
+    <Compile Include="Enumerations\Qualifier.cs" />
+    <Compile Include="InterchangeContainer.cs" />
+    <Compile Include="ISegmentFactory.cs" />
+    <Compile Include="ISegmentSplitter.cs" />
+    <Compile Include="IHierarchySplitter.cs" />
+    <Compile Include="Publishers\IMessagePublisher.cs" />
+    <Compile Include="SegmentSplitter.cs" />
+    <Compile Include="HierarchySplitter.cs" />
+    <Compile Include="Publishers\ShippedOrderMessagePublisher.cs" />
+    <Compile Include="XMLUtilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EdiMessages\EdiMessages.csproj">
+      <Project>{1554FC4E-3637-4267-A635-D4F53D4D4DAB}</Project>
+      <Name>EdiMessages</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
